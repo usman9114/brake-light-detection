@@ -73,3 +73,13 @@ Please ensure you have these libraries installed before running the code.
 Note
 - This code is designed to be part of a larger project involving brake light detection and the analysis of telematics data during vehicle drives. It provides a visual interface for correlating brake light events with vehicle behavior, making it useful for research and analysis in the field of vehicle safety and telematics.
 
+
+## Setup
+
+```bash
+pip install opencv-python numpy pandas scipy matplotlib wxPython
+```
+
+## Limitations
+
+Detection quality depends on lighting, camera angle, occlusion and the scope of the available driving data.
