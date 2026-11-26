@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/hero.jpg" alt="Banner: a rain-wet night highway seen from behind a dark car whose two glowing brake lights are each framed by a cyan detection bracket, with red tail-light trails sweeping away on the right. Title: Brake light detection." width="100%"></p>
+<p align="center"><img src="docs/assets/hero.jpg" alt="Banner: a real photograph of a car from behind at dusk with its brake lights on, a yellow vehicle box labelled Brake and a cyan box on each tail light. The boxes are drawn for illustration, not model output. Title: Brake light detection." width="100%"></p>
 
 # Brake Light Detection and Telematics Data Visualization
 
@@ -100,4 +100,4 @@ Detection quality depends on lighting, camera angle, occlusion and the scope of 
 
 ## Visual assets
 
-The banner illustration was generated from a written brief (`docs/assets/briefs/hero.md`, with the references it drew on); its sidecar `docs/assets/hero-art.png.json` records the prompt. Text is set in real type by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.jpg` (1280x640) is for the repository's social preview. The demo GIFs above are real output and remain the evidence; the banner is an illustration.
+The banner is a real photograph with detection boxes drawn on it, not a generated image. Photo: "Fiat Linea By Night" by Pava, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fiat_Linea_By_Night.jpg). Edits: cropped, the car-maker badge, model name and licence plate blurred, and the boxes drawn by hand in the style of this repo's demo UI (illustration, not model output). Provenance is in `docs/assets/hero-art.png.json`, the brief in `docs/assets/briefs/hero.md`, and the title text is set by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.jpg` (1280x640) is for the repository's social preview. The demo GIFs above remain the evidence of the detector's output.
