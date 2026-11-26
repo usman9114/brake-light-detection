@@ -1,0 +1,9 @@
+{
+  "prompt": "Cinematic long-exposure night photograph of a rain-wet city highway, shot low from behind a single dark car. Streaks of crimson and amber tail-light trails sweep along the road into the distance on the right. The car's two brake lights flare bright red with soft halos reflected on the wet asphalt, and a thin luminous cyan rectangular corner-bracket box frames the pair of brake lights, like a computer-vision detection box. Near-black blue night, deep shadows, subtle rain bokeh. The car is plain: no badges, no logos, blank licence plate. Wide 2:1 composition. The left third of the canvas stays quiet, dark and low-detail so a title can be placed there. No text, letters, numbers, watermarks, borders, people or robots.",
+  "driver_model": "gpt-6-luna",
+  "image_model": "gpt-image via codex $imagegen",
+  "created": "2026-11-26T21:27:54",
+  "refs": [],
+  "tool": "scout.chatgpt (codex exec, ChatGPT plan)",
+  "note": "AI-generated. Not a product photo."
+}

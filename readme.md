@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/hero.jpg" alt="Banner: a rain-wet night highway seen from behind a dark car whose two glowing brake lights are each framed by a cyan detection bracket, with red tail-light trails sweeping away on the right. Title: Brake light detection." width="100%"></p>
+
 # Brake Light Detection and Telematics Data Visualization
 
 <div style="text-align: center;">
@@ -95,3 +97,7 @@ pip install opencv-python numpy pandas scipy matplotlib wxPython
 ## Limitations
 
 Detection quality depends on lighting, camera angle, occlusion and the scope of the available driving data.
+
+## Visual assets
+
+The banner illustration was generated from a written brief (`docs/assets/briefs/hero.md`, with the references it drew on); its sidecar `docs/assets/hero-art.png.json` records the prompt. Text is set in real type by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.jpg` (1280x640) is for the repository's social preview. The demo GIFs above are real output and remain the evidence; the banner is an illustration.
