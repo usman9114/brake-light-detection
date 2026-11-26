@@ -9,6 +9,18 @@
 
 This project combines brake light detection with the visualization of telematics data. It integrates the analysis of video frames with telemetry information to detect brake light events during vehicle drives. The code utilizes various Python libraries and frameworks to accomplish this task while providing insights into vehicle behavior and safety.
 
+## How it works
+
+```mermaid
+flowchart LR
+    V["Video frames<br/>--v folder"] --> BL["BrakeLightDetect<br/>vehicle box, region of interest,<br/>red mask, contours"]
+    BL --> CK["Verify light pairs<br/>aspect ratio, symmetry,<br/>day or night ambient light"]
+    CK --> FL["Brake-light flag + box"]
+    T["Telematics CSV<br/>--telematics, --d drive id"] --> SM["Optional Gaussian<br/>smoothing, --s"]
+    FL --> GUI["MyFrame (wxPython)<br/>video with live<br/>telematics plot"]
+    SM --> GUI
+```
+
 ## Code Overview
 
 ### BrakeLightDetect Class
